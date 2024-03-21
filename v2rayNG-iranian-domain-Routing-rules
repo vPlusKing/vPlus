@@ -1,0 +1,40 @@
+[
+  {
+    "id": "5638677648822589840",
+    "port": "",
+    "outboundTag": "block",
+    "ip": [],
+    "domain": [
+      "geosite:category-ads-all",
+      "ext:iran.dat:ads"
+    ],
+    "process": [],
+    "enabled": true
+  },
+  {
+    "id": "5443349784939109626",
+    "port": "",
+    "outboundTag": "direct",
+    "ip": [
+      "geoip:private",
+      "geoip:ir"
+    ],
+    "domain": [
+      "ext:iran.dat:all",
+      "ext:iran.dat:ir",
+      "ext:iran.dat:other",
+      "regexp:^.\u002B\\.ir$"
+    ],
+    "process": [],
+    "enabled": true
+  },
+  {
+    "id": "4979258353978264355",
+    "port": "0-65535",
+    "outboundTag": "proxy",
+    "ip": [],
+    "domain": [],
+    "process": [],
+    "enabled": true
+  }
+]
